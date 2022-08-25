@@ -3,10 +3,13 @@ import React from 'react'
 export default function Home() {
     
     const home = {
-        backgroundColor : '#000',
-        height : '85vh',
+        backgroundColor : '#e6d8cb',
+        height : 'auto',
         textAlign : 'center',
-        color : 'aqua'
+        color : '#e394a7',
+        margin: '0px',
+        padding: '50px',
+        minHeight: '72vh'
     }
 
   return (

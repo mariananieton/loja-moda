@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #e394a7;
+    height : 10vh;
+    text-align: center;
+    margin: 0;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    list-style: none;
+    justify-content: center;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.menu-list {
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    color: #e6d8cb;
+}
+
+.rodape {
+    background-color: #9a5071;
+    color: #e6d8cb;
+    height : 10vh;
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+}
+
