@@ -4,7 +4,7 @@ body {
 }
 
 .menu {
-    background-color: #e394a7;
+    background-color: #85aab0;
     height : 10vh;
     text-align: center;
     margin: 0;
@@ -31,12 +31,72 @@ body {
     color: #e6d8cb;
 }
 
+.home {
+    background-color : #e6d8cb;
+    height : auto;
+    text-align : center;
+    color : #a3c3b8;
+    margin: 0px;
+    padding: 50px;
+    min-height: 72vh;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #2a091c;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #87758f;
+}
+
+.produtos li:active {
+    border-color: #a3c3b8;
+
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
 .rodape {
-    background-color: #9a5071;
+    background-color: #87758f;
     color: #e6d8cb;
     height : 10vh;
     text-align: center;
     margin: 0;
-    padding-top: 10px;
+    padding-top: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 22px;
 }
 
